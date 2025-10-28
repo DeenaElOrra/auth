@@ -17,5 +17,5 @@ public interface AuthController {
     ResponseEntity<TokenOut> login(@Valid @RequestBody LoginIn in);
 
     @PostMapping("/solve")
-    ResponseEntity<Map<String, String>> solve(@Valid @RequestBody TokenOut token);
+    ResponseEntity<SolveOut> solve(@Valid @RequestBody TokenOut token);
 }
