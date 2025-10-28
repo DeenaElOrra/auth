@@ -1,4 +1,4 @@
-package main.java.store.auth;
+package store.auth;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
